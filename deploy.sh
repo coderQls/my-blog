@@ -3,7 +3,7 @@
  # @Author: coderQls 1064341174@qq.com
  # @Date: 2022-11-29 16:30:24
  # @LastEditors: coderQls 1064341174@qq.com
- # @LastEditTime: 2022-11-29 17:25:55
+ # @LastEditTime: 2022-11-29 17:51:30
  # @Description: 
 ### 
 # 确保脚本抛出遇到的错误
@@ -19,6 +19,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:coderQls/my-blog.git deploy
+git push -f git@github.com:coderQls/my-blog.git master:deploy
 
 cd ..
