@@ -3,6 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 
 export default defineUserConfig({
+  base: '/my-blog/',
   title: 'coderQls的博客',
   description: '学习记录',
   theme: recoTheme({
